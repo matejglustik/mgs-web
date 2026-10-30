@@ -1,0 +1,116 @@
+backend:
+  name: github
+  repo: TVOJ-UCET/TVOJ-REPO   # <- zmeň na svoj GitHub repozitár
+  branch: main
+media_folder: images/uploads
+public_folder: /images/uploads
+locale: sk
+collections:
+  - name: web
+    label: Obsah webu
+    files:
+      - name: site
+        label: Celá stránka
+        file: content/site.json
+        fields:
+          - { name: company, label: Značka (krátky názov), widget: string }
+          - { name: legal, label: Celý názov firmy, widget: string }
+          - { name: phone, label: Telefón, widget: string }
+          - { name: email, label: E-mail, widget: string }
+          - { name: address1, label: Sídlo, widget: string }
+          - { name: address2, label: Korešpondenčná adresa, widget: string }
+          - name: theme
+            label: Vzhľad (farba webu)
+            widget: object
+            fields:
+              - { name: color, label: "Hlavná farba webu (po zmene sa prefarbí celý web)", widget: color, default: "#ff6b1a", allowInput: true }
+          - name: hero
+            label: Úvodná sekcia
+            widget: object
+            fields:
+              - { name: eyebrow, label: Malý nadpis, widget: string }
+              - { name: title, label: Hlavný nadpis, widget: string }
+              - { name: text, label: Text, widget: text }
+              - { name: cta1, label: Tlačidlo 1, widget: string }
+              - { name: cta2, label: Tlačidlo 2, widget: string }
+              - { name: image, label: Fotka na pozadie (stroje, stavba), widget: image, required: false }
+          - name: stats
+            label: Čísla
+            widget: list
+            fields:
+              - { name: value, label: Hodnota, widget: number }
+              - { name: suffix, label: "Prípona (+ alebo %)", widget: string, required: false }
+              - { name: label, label: Popis, widget: string }
+          - name: profile
+            label: Profil spoločnosti
+            widget: object
+            fields:
+              - { name: eyebrow, label: Malý nadpis, widget: string }
+              - { name: title, label: Nadpis, widget: string }
+              - { name: text, label: Text (odseky oddeľ prázdnym riadkom), widget: text }
+              - { name: year, label: Rok vzniku, widget: string }
+              - { name: yearLabel, label: Popis roku, widget: string }
+              - { name: image, label: Hlavná fotka, widget: image, required: false }
+              - { name: image2, label: Menšia fotka (voliteľná), widget: image, required: false }
+              - { name: points, label: Body, widget: list, field: { name: bod, widget: string } }
+          - name: pages
+            label: Podstránky (služby a pracoviská)
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: group, label: Skupina, widget: select, options: [{ label: Služby, value: sluzby }, { label: Pracoviská, value: pracoviska }] }
+              - { name: slug, label: Adresa (bez diakritiky, napr. doprava), widget: string }
+              - { name: title, label: Názov, widget: string }
+              - { name: short, label: Krátky popis (karta), widget: string }
+              - { name: lead, label: Úvodný text, widget: text }
+              - { name: text, label: Text (odseky oddeľ prázdnym riadkom), widget: text }
+              - { name: image, label: Fotka, widget: image, required: false }
+              - name: gallery
+                label: Galéria fotiek
+                widget: list
+                required: false
+                field: { name: foto, widget: image }
+              - name: facts
+                label: Čísla
+                widget: list
+                required: false
+                fields:
+                  - { name: value, label: Hodnota, widget: number }
+                  - { name: suffix, label: Prípona, widget: string, required: false }
+                  - { name: label, label: Popis, widget: string }
+              - name: features
+                label: Čo ponúkame
+                widget: list
+                fields:
+                  - { name: title, label: Názov, widget: string }
+                  - { name: text, label: Popis, widget: text }
+          - name: projects
+            label: Projekty
+            widget: list
+            fields:
+              - { name: title, label: Názov, widget: string }
+              - { name: category, label: Kategória, widget: string }
+              - { name: year, label: Rok, widget: string }
+              - { name: image, label: Fotka, widget: image, required: false }
+          - name: banner
+            label: Výzva (oranžový pás)
+            widget: object
+            fields:
+              - { name: title, label: Nadpis, widget: string }
+              - { name: text, label: Text, widget: string }
+              - { name: button, label: Tlačidlo, widget: string }
+              - { name: image, label: Fotka na pozadie, widget: image, required: false }
+          - name: news
+            label: Aktuality
+            widget: list
+            fields:
+              - { name: date, label: Dátum, widget: string }
+              - { name: image, label: Fotka, widget: image, required: false }
+              - { name: title, label: Názov, widget: string }
+              - { name: text, label: Text, widget: text }
+          - name: contact
+            label: Kontaktná sekcia
+            widget: object
+            fields:
+              - { name: title, label: Nadpis, widget: string }
+              - { name: text, label: Text, widget: text }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MGS Group – Stavebná spoločnosť</title>
+<meta name="description" content="MGS Group, a.s. – pozemné a dopravné stavby, výroba stavebných materiálov, doprava a špecializované pracoviská.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="topbar"><div class="wrap"><span id="t-addr"></span><span><a id="t-phone"></a> · <a id="t-mail"></a></span></div></div>
+<header id="hdr"><div class="wrap bar">
+<a class="logo" href="#hero" data-a="#hero"><svg viewBox="0 0 40 40" width="40" height="40"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop style="stop-color:var(--ac2)"/><stop offset="1" style="stop-color:var(--ac)"/></linearGradient></defs><rect width="40" height="40" rx="10" fill="url(#lg)"/><path d="M8 31V12l8 9 8-9v19M28 31V12h4v19z" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round"/></svg><b id="logo">MGS</b><small id="logoSub"></small></a>
+<button class="burger" id="burger" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')"><i></i><i></i><i></i></button>
+<nav id="nav"></nav></div></header>
+
+<main id="home">
+<section class="hero" id="hero">
+<img class="bgimg" id="h-img" alt="" hidden>
+<div class="mesh"><i></i><i></i><i></i></div><div class="grid"></div>
+<div class="shape s1" data-p=".12"></div><div class="shape s2" data-p="-.08"></div>
+<div class="wrap hero-in">
+<p class="eyebrow" id="h-eyebrow"></p><h1 id="h-title"></h1><p class="lead" id="h-text"></p>
+<div class="cta-row"><a class="btn" id="h-cta1" href="#profil" data-a="#profil"></a><a class="btn ghost" id="h-cta2" href="#kontakt" data-a="#kontakt"></a></div>
+</div>
+<svg class="sky" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true">
+<g fill="#ffffff12" stroke="#ffffff30"><rect class="b" style="--i:0" x="40" y="110" width="90" height="90"/><rect class="b" style="--i:1" x="150" y="60" width="70" height="140"/><rect class="b" style="--i:2" x="240" y="90" width="110" height="110"/><rect class="b" style="--i:3" x="380" y="30" width="80" height="170"/><rect class="b" style="--i:4" x="480" y="100" width="100" height="100"/><rect class="b" style="--i:5" x="610" y="50" width="75" height="150"/><rect class="b" style="--i:6" x="710" y="120" width="120" height="80"/><rect class="b" style="--i:7" x="860" y="70" width="80" height="130"/><rect class="b" style="--i:8" x="965" y="20" width="85" height="180"/><rect class="b" style="--i:9" x="1070" y="95" width="100" height="105"/></g></svg>
+</section>
+<div class="wrap statwrap"><div class="stats" id="stats"></div></div>
+
+<section id="profil"><div class="wrap two">
+<div class="media rv"><div class="photo" id="p-photo"></div><div class="photo2" id="p-photo2"></div><div class="badge"><b id="p-year"></b><span id="p-ylabel"></span></div></div>
+<div><p class="eyebrow rv" id="p-eyebrow"></p><h2 class="rv" id="p-title"></h2><div class="rv" id="p-text"></div><ul class="checks rv" id="p-points"></ul></div>
+</div></section>
+
+<section id="sluzby" class="tint"><div class="wrap">
+<p class="eyebrow rv">Naše služby</p><h2 class="rv">Čo pre vás robíme</h2><div class="divs" id="divs"></div></div></section>
+
+<section id="projekty"><div class="wrap">
+<p class="eyebrow rv">Referencie</p><h2 class="rv">Projekty a referencie</h2>
+<div class="chips rv" id="chips"></div><div class="projects" id="projects"></div></div></section>
+
+<section class="banner"><img class="bgimg" id="b-img" alt="" hidden><div class="stripes"></div><div class="wrap bn">
+<div><h2 class="rv" id="b-title"></h2><p class="rv" id="b-text"></p></div><a class="btn light rv" id="b-btn" href="#kontakt" data-a="#kontakt"></a></div></section>
+
+<section id="pracoviska"><div class="wrap">
+<p class="eyebrow rv">Naše oddelenia</p><h2 class="rv">Špecializované pracoviská</h2><div class="rows" id="rows"></div></div></section>
+
+<section id="aktuality" class="tint"><div class="wrap">
+<p class="eyebrow rv">Novinky</p><h2 class="rv">Aktuality</h2><div class="news" id="news"></div></div></section>
+</main>
+
+<main id="detail" hidden></main>
+
+<section id="kontakt" class="dark"><div class="mesh soft"><i></i><i></i></div><div class="wrap two">
+<div><p class="eyebrow rv">Kontakt</p><h2 class="rv" id="c-title"></h2><p class="lead rv" id="c-text"></p><div class="infos rv" id="infos"></div></div>
+<form class="rv" name="kontakt" method="POST" data-netlify="true" action="/?odoslane">
+<input type="hidden" name="form-name" value="kontakt">
+<div class="f2"><label>Meno a priezvisko<input name="meno" required></label><label>E-mail<input name="email" type="email" required></label></div>
+<div class="f2"><label>Telefón<input name="telefon"></label><label>Predmet<input name="predmet"></label></div>
+<label>Správa<textarea name="sprava" rows="4" required></textarea></label>
+<label class="chk"><input type="checkbox" required> Súhlasím so spracovaním osobných údajov na účely vybavenia dopytu.</label>
+<button class="btn" type="submit">Odoslať správu</button>
+</form></div></section>
+
+<footer><div class="wrap cols">
+<div><div class="logo f"><b id="f-name"></b></div><p>Stavebná spoločnosť s tradíciou v pozemnom a inžinierskom staviteľstve a výrobe stavebných materiálov.</p></div>
+<div><h4>Služby</h4><div id="f-s"></div></div><div><h4>Pracoviská</h4><div id="f-p"></div></div>
+<div><h4>Kontakt</h4><p id="f-contact"></p></div>
+</div><div class="wrap copy">© <span id="yr"></span> <span id="f-legal"></span>. Všetky práva vyhradené.</div></footer>
+<script src="/main.js"></script>
+</body>
+</html>
