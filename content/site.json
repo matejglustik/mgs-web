@@ -1,429 +1,429 @@
 {
- "company": "MGS",
- "legal": "MGS Group, a.s.",
- "phone": "+421 900 555 210",
- "email": "office@mgsgroup.sk",
- "address1": "Priemyselná 18, 010 01 Žilina",
- "address2": "Námestie slobody 7, 026 01 Dolný Kubín",
- "hero": {
-  "eyebrow": "Stavebná spoločnosť od roku 2003",
-  "title": "Stavby, na ktoré sa dá spoľahnúť",
-  "text": "Pozemné a inžinierske stavby, výroba stavebných materiálov a vlastná doprava. Všetko pod jednou strechou, od návrhu po odovzdanie.",
-  "cta1": "O spoločnosti",
-  "cta2": "Kontaktujte nás",
-  "image": ""
- },
- "stats": [
-  {
-   "value": 23,
-   "suffix": "+",
-   "label": "rokov na trhu"
+  "contact": {
+    "title": "Spojte sa s nami",
+    "text": "Radi zodpovieme otázky a pripravíme nezáväznú cenovú ponuku."
   },
-  {
-   "value": 900,
-   "suffix": "+",
-   "label": "dokončených projektov"
-  },
-  {
-   "value": 4,
-   "suffix": "",
-   "label": "divízie a oddelenia"
-  },
-  {
-   "value": 320,
-   "suffix": "",
-   "label": "zamestnancov"
-  }
- ],
- "profile": {
-  "eyebrow": "Profil spoločnosti",
-  "title": "Stavíme pre región aj pre celé Slovensko",
-  "text": "MGS Group je slovenská stavebná spoločnosť s vlastnými výrobnými kapacitami, modernou mechanizáciou a tímom skúsených odborníkov. Realizujeme budovy, priemyselné objekty, komunikácie aj mostné konštrukcie.\n\nKeďže vyrábame vlastný betón, asfaltové zmesi a prefabrikáty, držíme kvalitu, termíny aj cenu pod kontrolou.",
-  "year": "2003",
-  "yearLabel": "Rok vzniku",
-  "image": "",
-  "points": [
-   "Vlastné betonárne a výrobné závody",
-   "Certifikovaný systém riadenia kvality",
-   "Moderná mechanizácia a doprava",
-   "Stabilný tím odborníkov"
+  "pages": [
+    {
+      "facts": [
+        {
+          "value": 600,
+          "suffix": "+",
+          "label": "dokončených stavieb"
+        },
+        {
+          "value": 12,
+          "suffix": "",
+          "label": "stavebných stredísk"
+        },
+        {
+          "value": 100,
+          "suffix": "%",
+          "label": "dodržaných záruk"
+        }
+      ],
+      "slug": "stavebna-vyroba",
+      "text": "Stavebná výroba je jadro našej činnosti. Staviame bytové a občianske budovy, priemyselné haly aj dopravnú infraštruktúru.\n\nVďaka vlastným výrobným kapacitám a mechanizácii dodržiavame harmonogram aj rozpočet. Na každej stavbe máte jedného zodpovedného stavbyvedúceho.",
+      "gallery": [],
+      "title": "Stavebná výroba",
+      "image": "",
+      "short": "Komplexná realizácia budov, hál, komunikácií a mostov.",
+      "lead": "Od zemných prác po finálne úpravy. Stavby realizujeme vlastnými tímami a technikou.",
+      "features": [
+        {
+          "title": "Pozemné stavby",
+          "text": "Bytové domy, administratívne budovy, haly a rekonštrukcie."
+        },
+        {
+          "title": "Dopravné a mostné stavby",
+          "text": "Cesty, križovatky, mosty a mostné provizóriá."
+        },
+        {
+          "title": "Zámočnícke a oceľové konštrukcie",
+          "text": "Výroba a montáž oceľových prvkov vo vlastnej dielni."
+        }
+      ],
+      "group": "sluzby"
+    },
+    {
+      "facts": [
+        {
+          "value": 3,
+          "suffix": "",
+          "label": "výrobné závody"
+        },
+        {
+          "value": 250,
+          "suffix": "k",
+          "label": "ton ročnej výroby"
+        },
+        {
+          "value": 24,
+          "suffix": "/7",
+          "label": "expedícia v sezóne"
+        }
+      ],
+      "slug": "vyroba-stavebnych-materialov",
+      "text": "Prevádzkujeme betonárne, obaľovne asfaltových zmesí a závody na výrobu prefabrikátov. Kvalitu kontrolujeme v akreditovanom laboratóriu.\n\nMateriály dodávame nielen na vlastné stavby, ale aj externým zákazníkom po celom regióne.",
+      "gallery": [],
+      "title": "Výroba stavebných materiálov",
+      "image": "",
+      "short": "Transportbetón, asfaltové zmesi, prefabrikáty a kamenivo.",
+      "lead": "Kvalitné materiály z vlastných závodov, dodávané včas na vašu stavbu.",
+      "features": [
+        {
+          "title": "Transportbetón",
+          "text": "Širokú škálu betónových zmesí s dovozom miešačkami."
+        },
+        {
+          "title": "Asfaltové zmesi",
+          "text": "Zmesi pre cesty, parkoviská a priemyselné plochy."
+        },
+        {
+          "title": "Prefabrikáty a kamenivo",
+          "text": "Betónové prvky a drvené kamenivo rôznych frakcií."
+        }
+      ],
+      "group": "sluzby"
+    },
+    {
+      "facts": [
+        {
+          "value": 150,
+          "suffix": "+",
+          "label": "vozidiel a strojov"
+        },
+        {
+          "value": 98,
+          "suffix": "%",
+          "label": "dodávok načas"
+        },
+        {
+          "value": 24,
+          "suffix": "/7",
+          "label": "dispečing"
+        }
+      ],
+      "slug": "doprava",
+      "text": "Náš vozový park pokrýva prepravu sypkých materiálov, betónu aj nadrozmerných nákladov. Zemné stroje požičiavame aj s obsluhou.\n\nGPS sledovanie a dispečing zaručujú presné termíny dodávok.",
+      "gallery": [],
+      "title": "Doprava a mechanizácia",
+      "image": "",
+      "short": "Nákladná doprava, zemné stroje a špeciálna technika.",
+      "lead": "Moderný vozový park a stroje, ktoré sú vždy tam, kde ich potrebujete.",
+      "features": [
+        {
+          "title": "Nákladná doprava",
+          "text": "Sklápače, návesy a cisterny pre stavebné materiály."
+        },
+        {
+          "title": "Zemné stroje",
+          "text": "Rýpadlá, nakladače, buldozéry a valce s obsluhou."
+        },
+        {
+          "title": "Špeciálna technika",
+          "text": "Autožeriavy, plošiny a čerpadlá betónu."
+        }
+      ],
+      "group": "sluzby"
+    },
+    {
+      "facts": [
+        {
+          "value": 80,
+          "suffix": "+",
+          "label": "investičných zámerov"
+        },
+        {
+          "value": 15,
+          "suffix": "",
+          "label": "rokov praxe"
+        }
+      ],
+      "slug": "investicne-oddelenie",
+      "text": "Investičné oddelenie zabezpečuje štúdie realizovateľnosti, projektovú prípravu, povolenia aj riadenie celého procesu výstavby.\n\nZa vás komunikujeme s úradmi, projektantmi a dodávateľmi.",
+      "gallery": [],
+      "title": "Investičné oddelenie",
+      "image": "",
+      "short": "Príprava a riadenie investičných zámerov.",
+      "lead": "Sprevádzame investora od prvej myšlienky až po kolaudáciu.",
+      "features": [
+        {
+          "title": "Štúdie a príprava",
+          "text": "Analýza pozemku, rozpočet a harmonogram."
+        },
+        {
+          "title": "Povoľovanie",
+          "text": "Vybavíme stavebné povolenie aj kolaudáciu."
+        },
+        {
+          "title": "Riadenie výstavby",
+          "text": "Technický dozor a koordinácia dodávateľov."
+        }
+      ],
+      "group": "pracoviska"
+    },
+    {
+      "facts": [
+        {
+          "value": 120,
+          "suffix": "+",
+          "label": "spravovaných objektov"
+        },
+        {
+          "value": 24,
+          "suffix": "/7",
+          "label": "havarijná služba"
+        }
+      ],
+      "slug": "sprava-a-udrzba-nehnutelnosti",
+      "text": "Spravujeme administratívne budovy, výrobné areály aj bytové domy. Zabezpečujeme pravidelné revízie, opravy a havarijný servis.\n\nPrehľadné mesačné reporty vám ukážu stav aj náklady.",
+      "gallery": [],
+      "title": "Správa a údržba nehnuteľností",
+      "image": "",
+      "short": "Dlhodobá starostlivosť o budovy a areály.",
+      "lead": "Vaša nehnuteľnosť v kondícii po celý rok.",
+      "features": [
+        {
+          "title": "Technická správa",
+          "text": "Revízie, servis technológií a údržba."
+        },
+        {
+          "title": "Facility služby",
+          "text": "Upratovanie, ochrana a údržba zelene."
+        },
+        {
+          "title": "Rekonštrukcie",
+          "text": "Menšie stavebné úpravy bez prerušenia prevádzky."
+        }
+      ],
+      "group": "pracoviska"
+    },
+    {
+      "facts": [
+        {
+          "value": 500,
+          "suffix": "+",
+          "label": "zamerení ročne"
+        },
+        {
+          "value": 2,
+          "suffix": "cm",
+          "label": "typická presnosť"
+        }
+      ],
+      "slug": "geodeticke-oddelenie",
+      "text": "Geodeti využívajú moderné GNSS prístroje a skenery. Zabezpečujú vytyčovanie stavieb, kontrolné merania aj dokumentáciu pre kataster.\n\nMeriame pre vlastné stavby aj externých klientov.",
+      "gallery": [],
+      "title": "Geodetické oddelenie",
+      "image": "",
+      "short": "Zameranie, vytyčovanie a geodetická dokumentácia.",
+      "lead": "Presnosť od prvého kolíka až po zameranie skutočného stavu.",
+      "features": [
+        {
+          "title": "Vytyčovanie stavieb",
+          "text": "Presné vytýčenie objektov a inžinierskych sietí."
+        },
+        {
+          "title": "Zameranie skutočného stavu",
+          "text": "Podklady pre projekt aj kolaudáciu."
+        },
+        {
+          "title": "Kataster",
+          "text": "Geometrické plány a vecné bremená."
+        }
+      ],
+      "group": "pracoviska"
+    },
+    {
+      "facts": [
+        {
+          "value": 90,
+          "suffix": "%",
+          "label": "odpadu zhodnotíme"
+        },
+        {
+          "value": 100,
+          "suffix": "k",
+          "label": "ton ročne"
+        }
+      ],
+      "slug": "odpadove-hospodarstvo",
+      "text": "Recyklujeme betón, asfalt a stavebnú sutinu. Vyrobené recykláty používame na vlastných stavbách alebo ich predávame.\n\nPomáhame klientom s evidenciou a zákonným nakladaním s odpadom.",
+      "gallery": [],
+      "title": "Odpadové hospodárstvo",
+      "image": "",
+      "short": "Zhodnocovanie stavebných odpadov a recyklácia.",
+      "lead": "Z odpadu surovina. Šetríme prírodu aj vaše náklady.",
+      "features": [
+        {
+          "title": "Recyklácia asfaltu",
+          "text": "Spätné využitie frézovaného asfaltu."
+        },
+        {
+          "title": "Drvenie betónu",
+          "text": "Recyklované kamenivo pre podsypy a násypy."
+        },
+        {
+          "title": "Odvoz a evidencia",
+          "text": "Zákonné nakladanie s odpadom a dokumentácia."
+        }
+      ],
+      "group": "pracoviska"
+    },
+    {
+      "facts": [
+        {
+          "value": 6,
+          "suffix": "",
+          "label": "krajín realizácií"
+        },
+        {
+          "value": 40,
+          "suffix": "+",
+          "label": "zahraničných stavieb"
+        }
+      ],
+      "slug": "zahranicne-stavby",
+      "text": "Pôsobíme v susedných krajinách, kde realizujeme budovy aj dopravné stavby. Zabezpečujeme logistiku, miestne povolenia aj lokálnych subdodávateľov.\n\nZákazníkom ponúkame jedného kontaktného partnera.",
+      "gallery": [],
+      "title": "Zahraničné stavby",
+      "image": "",
+      "short": "Realizácie mimo Slovenska.",
+      "lead": "Naše skúsenosti využívame aj v zahraničí.",
+      "features": [
+        {
+          "title": "Pozemné stavby",
+          "text": "Haly a občianske budovy v zahraničí."
+        },
+        {
+          "title": "Dopravné stavby",
+          "text": "Komunikácie a mosty v spolupráci s partnermi."
+        },
+        {
+          "title": "Logistika a podpora",
+          "text": "Preprava techniky a materiálov."
+        }
+      ],
+      "group": "pracoviska"
+    }
   ],
-  "image2": ""
- },
- "projects": [
-  {
-   "title": "Obchvat mesta, cesta I. triedy",
-   "category": "Dopravné stavby",
-   "year": "2025",
-   "image": ""
+  "profile": {
+    "eyebrow": "Profil spoločnosti",
+    "title": "Stavíme pre región aj pre celé Slovensko",
+    "text": "MGS Group je slovenská stavebná spoločnosť s vlastnými výrobnými kapacitami, modernou mechanizáciou a tímom skúsených odborníkov. Realizujeme budovy, priemyselné objekty, komunikácie aj mostné konštrukcie.\n\nKeďže vyrábame vlastný betón, asfaltové zmesi a prefabrikáty, držíme kvalitu, termíny aj cenu pod kontrolou.",
+    "year": "2003",
+    "yearLabel": "Rok vzniku",
+    "image": "/images/uploads/rekonstrukcia-cesty-pri-terchovej-1.jpg",
+    "points": [
+      "Vlastné betonárne a výrobné závody",
+      "Certifikovaný systém riadenia kvality",
+      "Moderná mechanizácia a doprava",
+      "Stabilný tím odborníkov"
+    ],
+    "image2": ""
   },
-  {
-   "title": "Nový most cez rieku",
-   "category": "Mostné stavby",
-   "year": "2024",
-   "image": ""
+  "theme": {
+    "color": "#ff6b1a"
   },
-  {
-   "title": "Rekonštrukcia historického hradu",
-   "category": "Rekonštrukcie",
-   "year": "2024",
-   "image": ""
+  "banner": {
+    "title": "Máte projekt? Ozvite sa nám.",
+    "text": "Premeníme vaše plány na pevné základy.",
+    "button": "Napíšte nám",
+    "image": ""
   },
-  {
-   "title": "Rezidenčný komplex Panoráma",
-   "category": "Pozemné stavby",
-   "year": "2023",
-   "image": ""
+  "phone": "+421 900 555 210",
+  "news": [
+    {
+      "date": "15. 10. 2026",
+      "title": "Odovzdali sme obchvat v termíne",
+      "text": "Stavba bola dokončená podľa harmonogramu a otvorená pre dopravu.",
+      "image": ""
+    },
+    {
+      "date": "02. 09. 2026",
+      "title": "Nová betonáreň v prevádzke",
+      "text": "Zvýšili sme výrobnú kapacitu transportbetónu o tretinu.",
+      "image": ""
+    },
+    {
+      "date": "21. 06. 2026",
+      "title": "Dni otvorených dverí pre študentov",
+      "text": "Ukázali sme mladým stavbárom, ako vyzerá moderná stavba.",
+      "image": ""
+    }
+  ],
+  "legal": "MGS Group, a.s.",
+  "projects": [
+    {
+      "title": "Obchvat mesta, cesta I. triedy",
+      "category": "Dopravné stavby",
+      "year": "2025",
+      "image": ""
+    },
+    {
+      "title": "Nový most cez rieku",
+      "category": "Mostné stavby",
+      "year": "2024",
+      "image": ""
+    },
+    {
+      "title": "Rekonštrukcia historického hradu",
+      "category": "Rekonštrukcie",
+      "year": "2024",
+      "image": ""
+    },
+    {
+      "title": "Rezidenčný komplex Panoráma",
+      "category": "Pozemné stavby",
+      "year": "2023",
+      "image": ""
+    },
+    {
+      "title": "Logistický park Sever",
+      "category": "Pozemné stavby",
+      "year": "2023",
+      "image": ""
+    },
+    {
+      "title": "Okružná križovatka a komunikácie",
+      "category": "Dopravné stavby",
+      "year": "2022",
+      "image": ""
+    }
+  ],
+  "hero": {
+    "eyebrow": "Stavebná spoločnosť od roku 2003",
+    "title": "Stavby, na ktoré sa dá spoľahnúť",
+    "text": "Pozemné a inžinierske stavby, výroba stavebných materiálov a vlastná doprava. Všetko pod jednou strechou, od návrhu po odovzdanie.",
+    "cta1": "O spoločnosti",
+    "cta2": "Kontaktujte nás",
+    "image": "/images/uploads/gemini_generated_image_x8ocuqx8ocuqx8oc.jpg"
   },
-  {
-   "title": "Logistický park Sever",
-   "category": "Pozemné stavby",
-   "year": "2023",
-   "image": ""
-  },
-  {
-   "title": "Okružná križovatka a komunikácie",
-   "category": "Dopravné stavby",
-   "year": "2022",
-   "image": ""
-  }
- ],
- "banner": {
-  "title": "Máte projekt? Ozvite sa nám.",
-  "text": "Premeníme vaše plány na pevné základy.",
-  "button": "Napíšte nám",
-  "image": ""
- },
- "news": [
-  {
-   "date": "15. 10. 2026",
-   "title": "Odovzdali sme obchvat v termíne",
-   "text": "Stavba bola dokončená podľa harmonogramu a otvorená pre dopravu.",
-   "image": ""
-  },
-  {
-   "date": "02. 09. 2026",
-   "title": "Nová betonáreň v prevádzke",
-   "text": "Zvýšili sme výrobnú kapacitu transportbetónu o tretinu.",
-   "image": ""
-  },
-  {
-   "date": "21. 06. 2026",
-   "title": "Dni otvorených dverí pre študentov",
-   "text": "Ukázali sme mladým stavbárom, ako vyzerá moderná stavba.",
-   "image": ""
-  }
- ],
- "contact": {
-  "title": "Spojte sa s nami",
-  "text": "Radi zodpovieme otázky a pripravíme nezáväznú cenovú ponuku."
- },
- "pages": [
-  {
-   "group": "sluzby",
-   "slug": "stavebna-vyroba",
-   "title": "Stavebná výroba",
-   "short": "Komplexná realizácia budov, hál, komunikácií a mostov.",
-   "lead": "Od zemných prác po finálne úpravy. Stavby realizujeme vlastnými tímami a technikou.",
-   "text": "Stavebná výroba je jadro našej činnosti. Staviame bytové a občianske budovy, priemyselné haly aj dopravnú infraštruktúru.\n\nVďaka vlastným výrobným kapacitám a mechanizácii dodržiavame harmonogram aj rozpočet. Na každej stavbe máte jedného zodpovedného stavbyvedúceho.",
-   "image": "",
-   "facts": [
+  "email": "office@mgsgroup.sk",
+  "company": "MGS",
+  "address1": "Priemyselná 18, 010 01 Žilina",
+  "address2": "Námestie slobody 7, 026 01 Dolný Kubín",
+  "stats": [
     {
-     "value": 600,
-     "suffix": "+",
-     "label": "dokončených stavieb"
+      "value": 23,
+      "suffix": "+",
+      "label": "rokov na trhu"
     },
     {
-     "value": 12,
-     "suffix": "",
-     "label": "stavebných stredísk"
+      "value": 900,
+      "suffix": "+",
+      "label": "dokončených projektov"
     },
     {
-     "value": 100,
-     "suffix": "%",
-     "label": "dodržaných záruk"
+      "value": 4,
+      "suffix": "",
+      "label": "divízie a oddelenia"
+    },
+    {
+      "value": 320,
+      "suffix": "",
+      "label": "zamestnancov"
     }
-   ],
-   "features": [
-    {
-     "title": "Pozemné stavby",
-     "text": "Bytové domy, administratívne budovy, haly a rekonštrukcie."
-    },
-    {
-     "title": "Dopravné a mostné stavby",
-     "text": "Cesty, križovatky, mosty a mostné provizóriá."
-    },
-    {
-     "title": "Zámočnícke a oceľové konštrukcie",
-     "text": "Výroba a montáž oceľových prvkov vo vlastnej dielni."
-    }
-   ],
-   "gallery": []
-  },
-  {
-   "group": "sluzby",
-   "slug": "vyroba-stavebnych-materialov",
-   "title": "Výroba stavebných materiálov",
-   "short": "Transportbetón, asfaltové zmesi, prefabrikáty a kamenivo.",
-   "lead": "Kvalitné materiály z vlastných závodov, dodávané včas na vašu stavbu.",
-   "text": "Prevádzkujeme betonárne, obaľovne asfaltových zmesí a závody na výrobu prefabrikátov. Kvalitu kontrolujeme v akreditovanom laboratóriu.\n\nMateriály dodávame nielen na vlastné stavby, ale aj externým zákazníkom po celom regióne.",
-   "image": "",
-   "facts": [
-    {
-     "value": 3,
-     "suffix": "",
-     "label": "výrobné závody"
-    },
-    {
-     "value": 250,
-     "suffix": "k",
-     "label": "ton ročnej výroby"
-    },
-    {
-     "value": 24,
-     "suffix": "/7",
-     "label": "expedícia v sezóne"
-    }
-   ],
-   "features": [
-    {
-     "title": "Transportbetón",
-     "text": "Širokú škálu betónových zmesí s dovozom miešačkami."
-    },
-    {
-     "title": "Asfaltové zmesi",
-     "text": "Zmesi pre cesty, parkoviská a priemyselné plochy."
-    },
-    {
-     "title": "Prefabrikáty a kamenivo",
-     "text": "Betónové prvky a drvené kamenivo rôznych frakcií."
-    }
-   ],
-   "gallery": []
-  },
-  {
-   "group": "sluzby",
-   "slug": "doprava",
-   "title": "Doprava a mechanizácia",
-   "short": "Nákladná doprava, zemné stroje a špeciálna technika.",
-   "lead": "Moderný vozový park a stroje, ktoré sú vždy tam, kde ich potrebujete.",
-   "text": "Náš vozový park pokrýva prepravu sypkých materiálov, betónu aj nadrozmerných nákladov. Zemné stroje požičiavame aj s obsluhou.\n\nGPS sledovanie a dispečing zaručujú presné termíny dodávok.",
-   "image": "",
-   "facts": [
-    {
-     "value": 150,
-     "suffix": "+",
-     "label": "vozidiel a strojov"
-    },
-    {
-     "value": 98,
-     "suffix": "%",
-     "label": "dodávok načas"
-    },
-    {
-     "value": 24,
-     "suffix": "/7",
-     "label": "dispečing"
-    }
-   ],
-   "features": [
-    {
-     "title": "Nákladná doprava",
-     "text": "Sklápače, návesy a cisterny pre stavebné materiály."
-    },
-    {
-     "title": "Zemné stroje",
-     "text": "Rýpadlá, nakladače, buldozéry a valce s obsluhou."
-    },
-    {
-     "title": "Špeciálna technika",
-     "text": "Autožeriavy, plošiny a čerpadlá betónu."
-    }
-   ],
-   "gallery": []
-  },
-  {
-   "group": "pracoviska",
-   "slug": "investicne-oddelenie",
-   "title": "Investičné oddelenie",
-   "short": "Príprava a riadenie investičných zámerov.",
-   "lead": "Sprevádzame investora od prvej myšlienky až po kolaudáciu.",
-   "text": "Investičné oddelenie zabezpečuje štúdie realizovateľnosti, projektovú prípravu, povolenia aj riadenie celého procesu výstavby.\n\nZa vás komunikujeme s úradmi, projektantmi a dodávateľmi.",
-   "image": "",
-   "facts": [
-    {
-     "value": 80,
-     "suffix": "+",
-     "label": "investičných zámerov"
-    },
-    {
-     "value": 15,
-     "suffix": "",
-     "label": "rokov praxe"
-    }
-   ],
-   "features": [
-    {
-     "title": "Štúdie a príprava",
-     "text": "Analýza pozemku, rozpočet a harmonogram."
-    },
-    {
-     "title": "Povoľovanie",
-     "text": "Vybavíme stavebné povolenie aj kolaudáciu."
-    },
-    {
-     "title": "Riadenie výstavby",
-     "text": "Technický dozor a koordinácia dodávateľov."
-    }
-   ],
-   "gallery": []
-  },
-  {
-   "group": "pracoviska",
-   "slug": "sprava-a-udrzba-nehnutelnosti",
-   "title": "Správa a údržba nehnuteľností",
-   "short": "Dlhodobá starostlivosť o budovy a areály.",
-   "lead": "Vaša nehnuteľnosť v kondícii po celý rok.",
-   "text": "Spravujeme administratívne budovy, výrobné areály aj bytové domy. Zabezpečujeme pravidelné revízie, opravy a havarijný servis.\n\nPrehľadné mesačné reporty vám ukážu stav aj náklady.",
-   "image": "",
-   "facts": [
-    {
-     "value": 120,
-     "suffix": "+",
-     "label": "spravovaných objektov"
-    },
-    {
-     "value": 24,
-     "suffix": "/7",
-     "label": "havarijná služba"
-    }
-   ],
-   "features": [
-    {
-     "title": "Technická správa",
-     "text": "Revízie, servis technológií a údržba."
-    },
-    {
-     "title": "Facility služby",
-     "text": "Upratovanie, ochrana a údržba zelene."
-    },
-    {
-     "title": "Rekonštrukcie",
-     "text": "Menšie stavebné úpravy bez prerušenia prevádzky."
-    }
-   ],
-   "gallery": []
-  },
-  {
-   "group": "pracoviska",
-   "slug": "geodeticke-oddelenie",
-   "title": "Geodetické oddelenie",
-   "short": "Zameranie, vytyčovanie a geodetická dokumentácia.",
-   "lead": "Presnosť od prvého kolíka až po zameranie skutočného stavu.",
-   "text": "Geodeti využívajú moderné GNSS prístroje a skenery. Zabezpečujú vytyčovanie stavieb, kontrolné merania aj dokumentáciu pre kataster.\n\nMeriame pre vlastné stavby aj externých klientov.",
-   "image": "",
-   "facts": [
-    {
-     "value": 500,
-     "suffix": "+",
-     "label": "zamerení ročne"
-    },
-    {
-     "value": 2,
-     "suffix": "cm",
-     "label": "typická presnosť"
-    }
-   ],
-   "features": [
-    {
-     "title": "Vytyčovanie stavieb",
-     "text": "Presné vytýčenie objektov a inžinierskych sietí."
-    },
-    {
-     "title": "Zameranie skutočného stavu",
-     "text": "Podklady pre projekt aj kolaudáciu."
-    },
-    {
-     "title": "Kataster",
-     "text": "Geometrické plány a vecné bremená."
-    }
-   ],
-   "gallery": []
-  },
-  {
-   "group": "pracoviska",
-   "slug": "odpadove-hospodarstvo",
-   "title": "Odpadové hospodárstvo",
-   "short": "Zhodnocovanie stavebných odpadov a recyklácia.",
-   "lead": "Z odpadu surovina. Šetríme prírodu aj vaše náklady.",
-   "text": "Recyklujeme betón, asfalt a stavebnú sutinu. Vyrobené recykláty používame na vlastných stavbách alebo ich predávame.\n\nPomáhame klientom s evidenciou a zákonným nakladaním s odpadom.",
-   "image": "",
-   "facts": [
-    {
-     "value": 90,
-     "suffix": "%",
-     "label": "odpadu zhodnotíme"
-    },
-    {
-     "value": 100,
-     "suffix": "k",
-     "label": "ton ročne"
-    }
-   ],
-   "features": [
-    {
-     "title": "Recyklácia asfaltu",
-     "text": "Spätné využitie frézovaného asfaltu."
-    },
-    {
-     "title": "Drvenie betónu",
-     "text": "Recyklované kamenivo pre podsypy a násypy."
-    },
-    {
-     "title": "Odvoz a evidencia",
-     "text": "Zákonné nakladanie s odpadom a dokumentácia."
-    }
-   ],
-   "gallery": []
-  },
-  {
-   "group": "pracoviska",
-   "slug": "zahranicne-stavby",
-   "title": "Zahraničné stavby",
-   "short": "Realizácie mimo Slovenska.",
-   "lead": "Naše skúsenosti využívame aj v zahraničí.",
-   "text": "Pôsobíme v susedných krajinách, kde realizujeme budovy aj dopravné stavby. Zabezpečujeme logistiku, miestne povolenia aj lokálnych subdodávateľov.\n\nZákazníkom ponúkame jedného kontaktného partnera.",
-   "image": "",
-   "facts": [
-    {
-     "value": 6,
-     "suffix": "",
-     "label": "krajín realizácií"
-    },
-    {
-     "value": 40,
-     "suffix": "+",
-     "label": "zahraničných stavieb"
-    }
-   ],
-   "features": [
-    {
-     "title": "Pozemné stavby",
-     "text": "Haly a občianske budovy v zahraničí."
-    },
-    {
-     "title": "Dopravné stavby",
-     "text": "Komunikácie a mosty v spolupráci s partnermi."
-    },
-    {
-     "title": "Logistika a podpora",
-     "text": "Preprava techniky a materiálov."
-    }
-   ],
-   "gallery": []
-  }
- ],
- "theme": {
-  "color": "#ff6b1a"
- }
+  ]
 }
