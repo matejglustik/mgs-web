@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: TVOJ-UCET/TVOJ-REPO   # <- zmeň na svoj GitHub repozitár
+  repo: matejglustik/mgs-web
   branch: main
 media_folder: images/uploads
 public_folder: /images/uploads
